@@ -11,18 +11,10 @@
 	{Environnement startup. Plateforme \textbf{SaaS SIRH} pour l'hôtellerie/restauration. Clients inclus des palaces Parisiens}
 }
 \def \ExperienceBadakanTechnicalContext {\langstr
-	{Multitenant architecture, single monolith built with \textbf{Java 25} and \textbf{MongoDB}}
-	{Architecture multitenant avec un seul monolithe en \textbf{Java 25} et \textbf{MongoDB}}
-}
-
-\def \ExperienceBadakanMongodb {\langstr
-	{Extensive MongoDB work including: optimising queries, workflows and indexing strategies}
-	{J'ai beaucoup travaillé sur la partie MongoDB. Optimisé les requêtes, les indexes et les workflows}
-}
-
-\def \ExperienceBadakanMongodbExtra {\langstr
-	{Used a \textbf{covered query} (query fully resolved with an in-memory index) to solve bottlenecks}
-	{Used a \textbf{covered query} (query fully resolved with an in-memory index) to solve bottlenecks}
+	{Multitenant architecture, single monolith built with \textbf{Java 25} and \textbf{MongoDB}.
+	Team worked with continuous deployments. App deployed in \textbf{EKS} and artifacts saved in \textbf{s3}}
+	{Architecture multitenant avec un seul monolithe en \textbf{Java 25} et \textbf{MongoDB}.
+	Equipe fonctionne en déploiement continu. Application déployée dans \textbf{EKS} et artefactes dans \textbf{s3}}
 }
 
 \def \ExperienceBadakanFeatures {\langstr
@@ -30,32 +22,36 @@
 	{Participé à la conception et réalisation de nouvelles fonctionnalités qui nous a permis d'acquérir notre plus gros client}
 }
 
+\def \ExperienceBadakanMongodb {\langstr
+	{Extensive MongoDB work including: optimising queries, workflows and indexing strategies.
+	Used a \textbf{covered query} (query fully resolved with an in-memory index) to solve bottlenecks.}
+	{J'ai beaucoup travaillé sur la partie MongoDB. Optimisé les requêtes, les indexes et les workflows.
+	Utilisation de requête couverte (requête résolu entièrement en mémoire grâce à un index) pour résoudre un bottleneck.}
+}
+
 \def \ExperienceBadakanIncidents {\langstr
-	{Resolved production incidents. Reduced \textbf{memory} footprint and \textbf{latency} of our most called endpoints}
-	{Résolution d'incidents. Réduction de la \textbf{latence} et de l'empreinte \textbf{mémoire} des endpoints les plus utilisés}
+	{Resolved production incidents. Reduced \textbf{memory} footprint and \textbf{latency} of our most called endpoints. Reduced \textbf{90p} latency by \textbf{10x}}
+	{Résolution d'incidents. Réduction de la \textbf{latence} et de l'empreinte \textbf{mémoire} des endpoints les plus utilisés. Réduction de la latence 90p par 10}
 }
 
 \def \ExperienceBadakanProfiling {\langstr
-	{Used \textbf{Asyncprofiler} to profile performance and find I/O bottlenecks. Used \textbf{VisualVM} to analyze heap dumps and find memory issues}
-	{Used \textbf{Asyncprofiler} to profile code and find I/O bottlenecks. Used \textbf{VisualVM} to analyze heap dumps and find memory issues}
-}
-
-\def \ExperienceBadakanProfiling {\langstr
-	{Used \textbf{Asyncprofiler} for cpu and wall profiling; \textbf{VisualVM} and \textbf{heap dumps} for memory profiling. They allowed me to resolve I/O bottlenecks and OOM errors in production}
-	{Used \textbf{Asyncprofiler} to profile code and find I/O bottlenecks. Used \textbf{VisualVM} to analyze heap dumps and find memory issues}
+	{Used \textbf{Asyncprofiler} for CPU and wall profiling; \textbf{VisualVM} and \textbf{heap dumps} for memory profiling.
+	They allowed me to resolve I/O bottlenecks and OOM errors in production}
+	{Utilisé \textbf{Asyncprofiler} pour le profilage CPU et wall ; \textbf{VisualVM} et des \textbf{heap dumps} pour le profilage mémoire.
+	Cela m'a permis de résoudre des problèmes I/O et des erreurs OOM en production}
 }
 
 \def \ExperienceBadakanObservability {\langstr
-	{Improved the observability stack. Added custom spans and metrics with attributes using \textbf{Opentelemetry} libraries}
-	{Amélioration sur l'observabilité. Ajout de traces et métriques custom en utilisant \textbf{Opentelemetry}}
+	{Improved the observability stack. Added custom spans and metrics with attributes using \textbf{Opentelemetry} libraries.
+	Gave us better insight how our customers use the application. Allowed us pinpoint performance problems ahead of time.}
+	{Amélioration sur l'observabilité. Ajout de traces et métriques custom en utilisant \textbf{Opentelemetry}.
+	 Nous a permis de mieux comprendre comment nos clients utilisent l'application. Nous a aidés à identifier en avance les problèmes de performance.}
 }
 
 \def \ExperienceBadakanConcurrency {\langstr
-	{Resolved distributed concurrency issues: fixed incorrect application-level DB locks and ensured backward/forward API compatibility for rolling deployments.}
-	{Resolved distributed concurrency issues: fixed incorrect application-level DB locks and ensured backward/forward API compatibility for rolling deployments.}
-}
-
-\def \ExperienceBadakanInfra {\langstr
-	{Team worked with continuous deployments. App deployed in \textbf{EKS} and artifacts saved in \textbf{s3}}
-	{Equipe fonctionne en déploiement continu. Application déployée dans \textbf{EKS} et artefactes dans \textbf{s3}}
+	{Resolved distributed concurrency issues: fixed incorrect application-level DB locks.
+	Ensured backward/forward API compatibility for \textbf{zero down time} deployments.}
+%
+	{Résolu des problèmes de concurrence en environnement distribué: correction de lock DB incorrects.
+	Maintien de la compatibilité 'backward' et 'forward' de l'API pour les déploiements \textbf{sans interruption de service.}}
 }
