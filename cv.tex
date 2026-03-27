@@ -178,29 +178,40 @@
 
 \section{\IntroRole}
 \small{
+	What I'm looking for:
+	\begin{itemize}[leftmargin=*]
+		\item \IntroGoal
+	\end{itemize}
+	Who Am I:
 	\begin{itemize}[leftmargin=*]
 		\item \IntroXP
-		\item \IntroProg
-		\item \IntroGoal
-		\item \IntroLearning
 		\item \IntroNationality
+		\item \IntroProg
+		\item \IntroLearning
 	\end{itemize}
 }
-
 \section{\ExperienceTitle}
 \resumeHeadingListStart{}
 	\resumeQuadHeading
-	{Badakan}									{\ExperienceBadakanDate}
-	{\ExperienceBadakanRole}					{Paris, France}
+	{Badakan}			    {\ExperienceBadakanDate}
+	{\ExperienceBadakanRole}	    {Paris, France}
 	\resumeItemListStart{}
 		\resumeItem{\ExperienceBadakanCompany}
 		\resumeItem{\ExperienceBadakanTechnicalContext}
+		% \resumeItem{\ExperienceBadakanTechnicalContextExtra}
+		% \resumeItem{\ExperienceBadakanConcurrency}
 		\resumeItem{\ExperienceBadakanFeatures}
-		\resumeItem{\ExperienceBadakanMongodb}
+		\resumeItemListStart{}
+			\ExperienceBadakanFeaturePS
+		\resumeItemListEnd{}
+		\resumeItem{\ExperienceBadakanObservability}
 		\resumeItem{\ExperienceBadakanIncidents}
 		% \resumeItem{\ExperienceBadakanProfiling}
-		\resumeItem{\ExperienceBadakanConcurrency}
-		\resumeItem{\ExperienceBadakanObservability}
+		\resumeItem{\ExperienceBadakanMongodb}
+		\resumeItemListStart{}
+			\resumeItem{\ExperienceBadakanMongodbCoveredQuery}
+			\resumeItem{\ExperienceBadakanMongodbWorkflow}
+		\resumeItemListEnd{}
 	\resumeItemListEnd{}
 	\resumeDuoHeading
 	{Norsys}		{\ExperienceNorsysDuration}
@@ -208,12 +219,12 @@
 	\resumeItemListStart{}
 		\resumeItem{\ExperienceDecathlonService}
 		\resumeItem{\ExperienceDecathlonEventDriven}
-		\resumeItem{\ExperienceDecathlonTeam}
+		% \resumeItem{\ExperienceDecathlonTeam}
 	\resumeItemListEnd{}
 
 	\resumeQuadHeadingChild{\ExperienceNorsysRole} {\ExperienceNorsysDates}
 	\resumeItemListStart{}
-		\resumeItem{\ExperienceNorsysAgence}
+		% \resumeItem{\ExperienceNorsysAgence}
 		\resumeItem{\ExperienceNorsysMigration}
 	\resumeItemListEnd{}
 \resumeHeadingListEnd{}
@@ -256,6 +267,7 @@
 \resumeSectionType{\SkillDevTools}{:}{
 	\textbf{Git} \includesvg[scale=0.1]{icons/git.svg} \SkillStrong,
 	IntelliJ,
+	Claude Code,
 	% Java specific tools
 	% AsyncProfiler,
 	% VisualVM,
@@ -263,11 +275,11 @@
 	Neovim \includesvg[scale=0.015]{icons/neovim.svg}}
 \resumeHeadingListEnd{}
 
-\thispagestyle{empty}
-\vfill
-{\color{white}}
 \begin{flushright}
 	{\scriptsize{\textit{\langstr{Source code to this CV}{Code source de ce CV}: \href{https://github.com/ryanbeerbarron/cv}{\uline{https://github.com/ryanbeerbarron/CV}}}}}
 \end{flushright}
+% \thispagestyle{empty}
+% \vfill
+{\color{white}}
 
 \end{document}
