@@ -178,11 +178,11 @@
 
 \section{\IntroRole}
 \small{
-	What I'm looking for:
+	{\IntroWhatImLookingFor}
 	\begin{itemize}[leftmargin=*]
 		\item \IntroGoal
 	\end{itemize}
-	Who Am I:
+	{\IntroWhoAmI}
 	\begin{itemize}[leftmargin=*]
 		\item \IntroXP
 		\item \IntroNationality
@@ -219,7 +219,7 @@
 	\resumeItemListStart{}
 		\resumeItem{\ExperienceDecathlonService}
 		\resumeItem{\ExperienceDecathlonEventDriven}
-		% \resumeItem{\ExperienceDecathlonTeam}
+		\resumeItem{\ExperienceDecathlonInternalLibrary}
 	\resumeItemListEnd{}
 
 	\resumeQuadHeadingChild{\ExperienceNorsysRole} {\ExperienceNorsysDates}
@@ -253,13 +253,14 @@
 		\textbf{Go} \includesvg[scale=0.03]{icons/gopher.svg} \SkillProficient, %
 		\textbf{C} \SkillProficient, %
 		\textbf{Lua} \SkillProficient}
-	\resumeSectionType{Frameworks}{:}{Spring Boot}
+	\resumeSectionType{Frameworks}{:}{Spring Boot \includesvg[scale=0.005]{icons/spring.svg}}
+	\resumeSectionType{Cloud}{:}{\textbf{AWS}, GCP}
 	\resumeSectionType{Technologies}{:}{
+		\textbf{Opentelemetry} \includesvg[scale=0.1]{icons/opentelemetry.svg},
+		\textbf{Datadog} \includesvg[scale=0.01]{icons/datadog.svg},
+		\textbf{Kubernetes} \includesvg[scale=0.02]{icons/kubernetes.svg},
 		\textbf{Linux/Debian} \includesvg[scale=0.11]{icons/debian.svg},
-		Opentelemetry,
-		Datadog,
 		\LaTeX,
-		MongoDB Atlas,
 		Kafka}
 	\resumeSectionType{\SkillDatabase}{:}{
 	\textbf{MongoDB} \includesvg[scale=0.02]{icons/mongodb.svg},
